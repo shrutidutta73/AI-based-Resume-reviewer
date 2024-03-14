@@ -7,7 +7,7 @@ from transformers import pipeline, GPT2Tokenizer, GPT2LMHeadModel
 
 app = Flask(__name__)
 
-# client = OpenAI(api_key="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")
+# client = OpenAI(api_key=api_key=os.getenv("OPENAI_API_KEY"))
 tokenizer = GPT2Tokenizer.from_pretrained("distilgpt2")
 model = GPT2LMHeadModel.from_pretrained("distilgpt2")
 
