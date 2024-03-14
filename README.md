@@ -5,29 +5,29 @@ AI Resume Reviewer is a web application that allows users to upload their resume
 
 1. Clone the repository:
    
-```cd ai-resume-reviewer```
+   ```cd ai-resume-reviewer```
 
 3. Navigate to the project directory:
 
-```pip install -r requirements.txt```
+   ```pip install -r requirements.txt```
 
 4. Create a virtual environment:
 
-```python -m venv venv```
+   ```python -m venv venv```
 
 5. Activate virtual environment (for Windows):
 
-```venv\Scripts\activate```
+   ```venv\Scripts\activate```
 
 6. Install dependencies using pip:
 
-```pip install -r requirements.txt```
+   ```pip install -r requirements.txt```
 
 ## Usage
 
 1. Run the Flask server:
 
-```python app.py```
+   ```python app.py```
 
 2. Open a web browser and go to `http://localhost:5000` to access the application.
 3. Upload your resume using the provided form and click "Upload" to generate feedback.
